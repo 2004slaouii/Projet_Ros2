@@ -1,0 +1,29 @@
+[5.746s] Invoking command in '/home/slaoui/ros2_ws/src/light_source': PYTHONPATH=/home/slaoui/ros2_ws/build/light_source/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/light_source build --build-base /home/slaoui/ros2_ws/build/light_source/build install --record /home/slaoui/ros2_ws/build/light_source/install.log --single-version-externally-managed
+[6.247s] running egg_info
+[6.281s] writing ../../build/light_source/light_source.egg-info/PKG-INFO
+[6.281s] writing dependency_links to ../../build/light_source/light_source.egg-info/dependency_links.txt
+[6.282s] writing entry points to ../../build/light_source/light_source.egg-info/entry_points.txt
+[6.345s] writing requirements to ../../build/light_source/light_source.egg-info/requires.txt
+[6.346s] writing top-level names to ../../build/light_source/light_source.egg-info/top_level.txt
+[6.346s] reading manifest file '../../build/light_source/light_source.egg-info/SOURCES.txt'
+[6.346s] writing manifest file '../../build/light_source/light_source.egg-info/SOURCES.txt'
+[6.346s] running build
+[6.346s] running build_py
+[6.347s] copying light_source/light_publisher.py -> /home/slaoui/ros2_ws/build/light_source/build/lib/light_source
+[6.347s] running install
+[6.347s] running install_lib
+[6.356s] copying /home/slaoui/ros2_ws/build/light_source/build/lib/light_source/light_publisher.py -> /home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source
+[6.356s] byte-compiling /home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source/light_publisher.py to light_publisher.cpython-310.pyc
+[6.364s] running install_egg_info
+[6.375s] removing '/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source-0.0.0-py3.10.egg-info' (and everything under it)
+[6.460s]   File "/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source/light_publisher.py", line 10
+[6.461s]     self.timer = self.create_timer(2.0, self.publish_light_position)  à 2.0 secondes
+[6.461s]                                                                       ^^
+[6.461s] SyntaxError: invalid syntax
+[6.462s] 
+[6.462s] Copying ../../build/light_source/light_source.egg-info to /home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source-0.0.0-py3.10.egg-info
+[6.542s] running install_scripts
+[6.555s] Installing light_indicator script to /home/slaoui/ros2_ws/install/light_source/lib/light_source
+[6.560s] Installing light_publisher script to /home/slaoui/ros2_ws/install/light_source/lib/light_source
+[6.562s] writing list of installed files to '/home/slaoui/ros2_ws/build/light_source/install.log'
+[6.798s] Invoked command in '/home/slaoui/ros2_ws/src/light_source' returned '0': PYTHONPATH=/home/slaoui/ros2_ws/build/light_source/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/light_source build --build-base /home/slaoui/ros2_ws/build/light_source/build install --record /home/slaoui/ros2_ws/build/light_source/install.log --single-version-externally-managed

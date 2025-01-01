@@ -1,0 +1,5 @@
+  File "/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source/light_publisher.py", line 10
+    self.timer = self.create_timer(2.0, self.publish_light_position)  à 2.0 secondes
+                                                                      ^^
+SyntaxError: invalid syntax
+

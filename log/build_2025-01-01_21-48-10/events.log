@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.035084] (light_follower) JobQueued: {'identifier': 'light_follower', 'dependencies': OrderedDict()}
+[0.035414] (light_source) JobQueued: {'identifier': 'light_source', 'dependencies': OrderedDict()}
+[0.035474] (sensor_node) JobQueued: {'identifier': 'sensor_node', 'dependencies': OrderedDict()}
+[0.047185] (light_follower) JobStarted: {'identifier': 'light_follower'}
+[0.100156] (-) TimerEvent: {}
+[0.205521] (-) TimerEvent: {}
+[0.263156] (light_source) JobStarted: {'identifier': 'light_source'}
+[0.312597] (-) TimerEvent: {}
+[0.316922] (sensor_node) JobStarted: {'identifier': 'sensor_node'}
+[0.451104] (-) TimerEvent: {}
+[0.553711] (-) TimerEvent: {}
+[0.663959] (-) TimerEvent: {}
+[0.806729] (-) TimerEvent: {}
+[0.916214] (-) TimerEvent: {}
+[1.018546] (-) TimerEvent: {}
+[1.119649] (-) TimerEvent: {}
+[1.223570] (-) TimerEvent: {}
+[1.324741] (-) TimerEvent: {}
+[1.425636] (-) TimerEvent: {}
+[1.526358] (-) TimerEvent: {}
+[1.627250] (-) TimerEvent: {}
+[1.728003] (-) TimerEvent: {}
+[1.838698] (-) TimerEvent: {}
+[1.942007] (-) TimerEvent: {}
+[2.077282] (-) TimerEvent: {}
+[2.178031] (-) TimerEvent: {}
+[2.278994] (-) TimerEvent: {}
+[2.386162] (-) TimerEvent: {}
+[2.500095] (-) TimerEvent: {}
+[2.600733] (-) TimerEvent: {}
+[2.702007] (-) TimerEvent: {}
+[2.803294] (-) TimerEvent: {}
+[2.904702] (-) TimerEvent: {}
+[3.067035] (-) TimerEvent: {}
+[3.170432] (-) TimerEvent: {}
+[3.340571] (-) TimerEvent: {}
+[3.531765] (-) TimerEvent: {}
+[3.737448] (-) TimerEvent: {}
+[3.865496] (-) TimerEvent: {}
+[3.967909] (-) TimerEvent: {}
+[4.424808] (-) TimerEvent: {}
+[4.526768] (-) TimerEvent: {}
+[4.630795] (-) TimerEvent: {}
+[4.733192] (-) TimerEvent: {}
+[4.838991] (-) TimerEvent: {}
+[5.416840] (-) TimerEvent: {}
+[5.531037] (-) TimerEvent: {}
+[5.636276] (-) TimerEvent: {}
+[5.741689] (-) TimerEvent: {}
+[5.848049] (-) TimerEvent: {}
+[5.956961] (-) TimerEvent: {}
+[6.067912] (-) TimerEvent: {}
+[6.173577] (-) TimerEvent: {}
+[6.275126] (-) TimerEvent: {}
+[6.378660] (-) TimerEvent: {}
+[6.490920] (-) TimerEvent: {}
+[6.593935] (-) TimerEvent: {}
+[6.705677] (-) TimerEvent: {}
+[6.806619] (-) TimerEvent: {}
+[6.910632] (-) TimerEvent: {}
+[7.013062] (-) TimerEvent: {}
+[7.126693] (-) TimerEvent: {}
+[7.230446] (-) TimerEvent: {}
+[7.331832] (-) TimerEvent: {}
+[7.439943] (-) TimerEvent: {}
+[7.542611] (-) TimerEvent: {}
+[7.645865] (-) TimerEvent: {}
+[7.749084] (-) TimerEvent: {}
+[7.850629] (-) TimerEvent: {}
+[7.963493] (-) TimerEvent: {}
+[8.067001] (-) TimerEvent: {}
+[8.168798] (-) TimerEvent: {}
+[8.271592] (-) TimerEvent: {}
+[8.377092] (-) TimerEvent: {}
+[8.480012] (-) TimerEvent: {}
+[8.582827] (-) TimerEvent: {}
+[8.722644] (-) TimerEvent: {}
+[8.828466] (-) TimerEvent: {}
+[8.930997] (-) TimerEvent: {}
+[9.035397] (-) TimerEvent: {}
+[9.138900] (-) TimerEvent: {}
+[9.241643] (-) TimerEvent: {}
+[9.342768] (-) TimerEvent: {}
+[9.582697] (light_source) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/light_source', 'build', '--build-base', '/home/slaoui/ros2_ws/build/light_source/build', 'install', '--record', '/home/slaoui/ros2_ws/build/light_source/install.log', '--single-version-externally-managed'], 'cwd': '/home/slaoui/ros2_ws/src/light_source', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'slaoui', 'LC_TIME': 'ar_MA.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/slaoui', 'OLDPWD': '/home/slaoui', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_MA.UTF-8', 'SYSTEMD_EXEC_PID': '1700', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/slaoui/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'slaoui', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'slaoui', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/~/ros2_ws/follower/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/slaoui-VirtualBox:@/tmp/.ICE-unix/1422,unix/slaoui-VirtualBox:/tmp/.ICE-unix/1422', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_MA.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5b0f5e6c_920e_4102_9388_ce988ef6f2b2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_MA.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.20WKZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/slaoui/ros2_ws/install/sensor_node:/home/slaoui/ros2_ws/install/light_source:/home/slaoui/ros2_ws/install/light_follower:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_MA.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_MA.UTF-8', 'LC_IDENTIFICATION': 'ar_MA.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/slaoui/ros2_ws/build/light_source', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/slaoui/ros2_ws/build/light_source/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages:/home/slaoui/ros2_ws/install/sensor_node/lib/python3.10/site-packages:/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages:/home/slaoui/ros2_ws/install/light_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_MA.UTF-8', 'LC_PAPER': 'ar_MA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.585031] (-) TimerEvent: {}
+[9.601546] (sensor_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor_node', 'build', '--build-base', '/home/slaoui/ros2_ws/build/sensor_node/build', 'install', '--record', '/home/slaoui/ros2_ws/build/sensor_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/slaoui/ros2_ws/src/sensor_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'slaoui', 'LC_TIME': 'ar_MA.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/slaoui', 'OLDPWD': '/home/slaoui', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_MA.UTF-8', 'SYSTEMD_EXEC_PID': '1700', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/slaoui/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'slaoui', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'slaoui', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/~/ros2_ws/follower/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/slaoui-VirtualBox:@/tmp/.ICE-unix/1422,unix/slaoui-VirtualBox:/tmp/.ICE-unix/1422', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_MA.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5b0f5e6c_920e_4102_9388_ce988ef6f2b2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_MA.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.20WKZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/slaoui/ros2_ws/install/sensor_node:/home/slaoui/ros2_ws/install/light_source:/home/slaoui/ros2_ws/install/light_follower:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_MA.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_MA.UTF-8', 'LC_IDENTIFICATION': 'ar_MA.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/slaoui/ros2_ws/build/sensor_node', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/slaoui/ros2_ws/build/sensor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/slaoui/ros2_ws/install/sensor_node/lib/python3.10/site-packages:/home/slaoui/ros2_ws/install/sensor_node/lib/python3.10/site-packages:/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages:/home/slaoui/ros2_ws/install/light_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_MA.UTF-8', 'LC_PAPER': 'ar_MA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.688852] (light_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/light_follower', 'build', '--build-base', '/home/slaoui/ros2_ws/build/light_follower/build', 'install', '--record', '/home/slaoui/ros2_ws/build/light_follower/install.log', '--single-version-externally-managed'], 'cwd': '/home/slaoui/ros2_ws/src/light_follower', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'slaoui', 'LC_TIME': 'ar_MA.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/slaoui', 'OLDPWD': '/home/slaoui', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_MA.UTF-8', 'SYSTEMD_EXEC_PID': '1700', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/slaoui/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'slaoui', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'slaoui', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/~/ros2_ws/follower/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/slaoui-VirtualBox:@/tmp/.ICE-unix/1422,unix/slaoui-VirtualBox:/tmp/.ICE-unix/1422', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_MA.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5b0f5e6c_920e_4102_9388_ce988ef6f2b2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_MA.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.20WKZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/slaoui/ros2_ws/install/sensor_node:/home/slaoui/ros2_ws/install/light_source:/home/slaoui/ros2_ws/install/light_follower:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_MA.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_MA.UTF-8', 'LC_IDENTIFICATION': 'ar_MA.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/slaoui/ros2_ws/build/light_follower', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/slaoui/ros2_ws/build/light_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/slaoui/ros2_ws/install/light_follower/lib/python3.10/site-packages:/home/slaoui/ros2_ws/install/sensor_node/lib/python3.10/site-packages:/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages:/home/slaoui/ros2_ws/install/light_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_MA.UTF-8', 'LC_PAPER': 'ar_MA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.690844] (-) TimerEvent: {}
+[9.881262] (-) TimerEvent: {}
+[10.070492] (-) TimerEvent: {}
+[10.225620] (-) TimerEvent: {}
+[10.282173] (light_source) StdoutLine: {'line': b'running egg_info\n'}
+[10.282778] (light_source) StdoutLine: {'line': b'writing ../../build/light_source/light_source.egg-info/PKG-INFO\n'}
+[10.336263] (light_follower) StdoutLine: {'line': b'running egg_info\n'}
+[10.338461] (-) TimerEvent: {}
+[10.338937] (light_follower) StdoutLine: {'line': b'writing ../../build/light_follower/light_follower.egg-info/PKG-INFO\n'}
+[10.340104] (light_source) StdoutLine: {'line': b'writing dependency_links to ../../build/light_source/light_source.egg-info/dependency_links.txt\n'}
+[10.341663] (light_follower) StdoutLine: {'line': b'writing dependency_links to ../../build/light_follower/light_follower.egg-info/dependency_links.txt\n'}
+[10.369100] (light_follower) StdoutLine: {'line': b'writing entry points to ../../build/light_follower/light_follower.egg-info/entry_points.txt\n'}
+[10.369339] (light_follower) StdoutLine: {'line': b'writing requirements to ../../build/light_follower/light_follower.egg-info/requires.txt\n'}
+[10.372369] (light_follower) StdoutLine: {'line': b'writing top-level names to ../../build/light_follower/light_follower.egg-info/top_level.txt\n'}
+[10.395234] (light_source) StdoutLine: {'line': b'writing entry points to ../../build/light_source/light_source.egg-info/entry_points.txt\n'}
+[10.396923] (light_source) StdoutLine: {'line': b'writing requirements to ../../build/light_source/light_source.egg-info/requires.txt\n'}
+[10.397113] (light_source) StdoutLine: {'line': b'writing top-level names to ../../build/light_source/light_source.egg-info/top_level.txt\n'}
+[10.401114] (light_source) StdoutLine: {'line': b"reading manifest file '../../build/light_source/light_source.egg-info/SOURCES.txt'\n"}
+[10.439647] (-) TimerEvent: {}
+[10.444903] (light_source) StdoutLine: {'line': b"writing manifest file '../../build/light_source/light_source.egg-info/SOURCES.txt'\n"}
+[10.447273] (light_source) StdoutLine: {'line': b'running build\n'}
+[10.450744] (light_source) StdoutLine: {'line': b'running build_py\n'}
+[10.457075] (light_follower) StdoutLine: {'line': b"reading manifest file '../../build/light_follower/light_follower.egg-info/SOURCES.txt'\n"}
+[10.458770] (light_source) StdoutLine: {'line': b'running install\n'}
+[10.460013] (light_source) StdoutLine: {'line': b'running install_lib\n'}
+[10.538937] (light_source) StdoutLine: {'line': b'byte-compiling /home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source/light_publisher.py to light_publisher.cpython-310.pyc\n'}
+[10.539598] (light_follower) StdoutLine: {'line': b"writing manifest file '../../build/light_follower/light_follower.egg-info/SOURCES.txt'\n"}
+[10.539746] (-) TimerEvent: {}
+[10.539973] (light_follower) StdoutLine: {'line': b'running build\n'}
+[10.540103] (light_follower) StdoutLine: {'line': b'running build_py\n'}
+[10.554971] (light_source) StderrLine: {'line': b'  File "/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source/light_publisher.py", line 10\n'}
+[10.555718] (light_source) StderrLine: {'line': b'    self.timer = self.create_timer(2.0, self.publish_light_position)  \xc3\xa0 2.0 secondes\n'}
+[10.555945] (light_source) StderrLine: {'line': b'                                                                      ^^\n'}
+[10.556049] (light_source) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[10.556140] (light_source) StderrLine: {'line': b'\n'}
+[10.642619] (light_source) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.643050] (-) TimerEvent: {}
+[10.643505] (light_source) StdoutLine: {'line': b"removing '/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.643815] (light_source) StdoutLine: {'line': b'Copying ../../build/light_source/light_source.egg-info to /home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source-0.0.0-py3.10.egg-info\n'}
+[10.644019] (light_source) StdoutLine: {'line': b'running install_scripts\n'}
+[10.644202] (light_follower) StdoutLine: {'line': b'running install\n'}
+[10.644561] (light_follower) StdoutLine: {'line': b'running install_lib\n'}
+[10.672293] (light_follower) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.676823] (light_follower) StdoutLine: {'line': b"removing '/home/slaoui/ros2_ws/install/light_follower/lib/python3.10/site-packages/light_follower-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.678028] (light_follower) StdoutLine: {'line': b'Copying ../../build/light_follower/light_follower.egg-info to /home/slaoui/ros2_ws/install/light_follower/lib/python3.10/site-packages/light_follower-0.0.0-py3.10.egg-info\n'}
+[10.688630] (light_follower) StdoutLine: {'line': b'running install_scripts\n'}
+[10.750453] (-) TimerEvent: {}
+[10.797793] (sensor_node) StdoutLine: {'line': b'running egg_info\n'}
+[10.798100] (sensor_node) StdoutLine: {'line': b'writing ../../build/sensor_node/sensor_node.egg-info/PKG-INFO\n'}
+[10.847142] (light_source) StdoutLine: {'line': b'Installing light_indicator script to /home/slaoui/ros2_ws/install/light_source/lib/light_source\n'}
+[10.892967] (-) TimerEvent: {}
+[10.894591] (light_source) StdoutLine: {'line': b'Installing light_publisher script to /home/slaoui/ros2_ws/install/light_source/lib/light_source\n'}
+[10.894905] (light_source) StdoutLine: {'line': b"writing list of installed files to '/home/slaoui/ros2_ws/build/light_source/install.log'\n"}
+[10.895144] (sensor_node) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor_node/sensor_node.egg-info/dependency_links.txt\n'}
+[10.895858] (sensor_node) StdoutLine: {'line': b'writing entry points to ../../build/sensor_node/sensor_node.egg-info/entry_points.txt\n'}
+[10.897704] (sensor_node) StdoutLine: {'line': b'writing requirements to ../../build/sensor_node/sensor_node.egg-info/requires.txt\n'}
+[10.897851] (light_follower) StdoutLine: {'line': b'Installing follower script to /home/slaoui/ros2_ws/install/light_follower/lib/light_follower\n'}
+[10.897997] (light_follower) StdoutLine: {'line': b"writing list of installed files to '/home/slaoui/ros2_ws/build/light_follower/install.log'\n"}
+[10.898087] (sensor_node) StdoutLine: {'line': b'writing top-level names to ../../build/sensor_node/sensor_node.egg-info/top_level.txt\n'}
+[10.898200] (sensor_node) StdoutLine: {'line': b"reading manifest file '../../build/sensor_node/sensor_node.egg-info/SOURCES.txt'\n"}
+[10.898346] (sensor_node) StdoutLine: {'line': b"writing manifest file '../../build/sensor_node/sensor_node.egg-info/SOURCES.txt'\n"}
+[10.898433] (sensor_node) StdoutLine: {'line': b'running build\n'}
+[10.898540] (sensor_node) StdoutLine: {'line': b'running build_py\n'}
+[10.898621] (sensor_node) StdoutLine: {'line': b'running install\n'}
+[10.898704] (sensor_node) StdoutLine: {'line': b'running install_lib\n'}
+[10.898800] (sensor_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.963778] (light_source) CommandEnded: {'returncode': 0}
+[10.964867] (sensor_node) StdoutLine: {'line': b"removing '/home/slaoui/ros2_ws/install/sensor_node/lib/python3.10/site-packages/sensor_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.965124] (sensor_node) StdoutLine: {'line': b'Copying ../../build/sensor_node/sensor_node.egg-info to /home/slaoui/ros2_ws/install/sensor_node/lib/python3.10/site-packages/sensor_node-0.0.0-py3.10.egg-info\n'}
+[10.965242] (sensor_node) StdoutLine: {'line': b'running install_scripts\n'}
+[11.001339] (sensor_node) StdoutLine: {'line': b'Installing sensor script to /home/slaoui/ros2_ws/install/sensor_node/lib/sensor_node\n'}
+[11.003256] (-) TimerEvent: {}
+[11.059049] (sensor_node) StdoutLine: {'line': b"writing list of installed files to '/home/slaoui/ros2_ws/build/sensor_node/install.log'\n"}
+[11.137168] (-) TimerEvent: {}
+[11.270639] (-) TimerEvent: {}
+[11.288267] (light_source) JobEnded: {'identifier': 'light_source', 'rc': 0}
+[11.298578] (light_follower) CommandEnded: {'returncode': 0}
+[11.387885] (light_follower) JobEnded: {'identifier': 'light_follower', 'rc': 0}
+[11.392935] (-) TimerEvent: {}
+[11.393346] (sensor_node) CommandEnded: {'returncode': 0}
+[11.415821] (sensor_node) JobEnded: {'identifier': 'sensor_node', 'rc': 0}
+[11.418506] (-) EventReactorShutdown: {}

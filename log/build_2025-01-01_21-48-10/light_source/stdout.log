@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/light_source/light_source.egg-info/PKG-INFO
+writing dependency_links to ../../build/light_source/light_source.egg-info/dependency_links.txt
+writing entry points to ../../build/light_source/light_source.egg-info/entry_points.txt
+writing requirements to ../../build/light_source/light_source.egg-info/requires.txt
+writing top-level names to ../../build/light_source/light_source.egg-info/top_level.txt
+reading manifest file '../../build/light_source/light_source.egg-info/SOURCES.txt'
+writing manifest file '../../build/light_source/light_source.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source/light_publisher.py to light_publisher.cpython-310.pyc
+running install_egg_info
+removing '/home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/light_source/light_source.egg-info to /home/slaoui/ros2_ws/install/light_source/lib/python3.10/site-packages/light_source-0.0.0-py3.10.egg-info
+running install_scripts
+Installing light_indicator script to /home/slaoui/ros2_ws/install/light_source/lib/light_source
+Installing light_publisher script to /home/slaoui/ros2_ws/install/light_source/lib/light_source
+writing list of installed files to '/home/slaoui/ros2_ws/build/light_source/install.log'

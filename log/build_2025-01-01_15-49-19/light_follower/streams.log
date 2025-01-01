@@ -1,0 +1,20 @@
+[6.051s] Invoking command in '/home/slaoui/ros2_ws/src/light_follower': PYTHONPATH=/home/slaoui/ros2_ws/build/light_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/slaoui/ros2_ws/install/light_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/light_follower build --build-base /home/slaoui/ros2_ws/build/light_follower/build install --record /home/slaoui/ros2_ws/build/light_follower/install.log --single-version-externally-managed
+[7.356s] running egg_info
+[7.356s] writing ../../build/light_follower/light_follower.egg-info/PKG-INFO
+[7.357s] writing dependency_links to ../../build/light_follower/light_follower.egg-info/dependency_links.txt
+[7.358s] writing entry points to ../../build/light_follower/light_follower.egg-info/entry_points.txt
+[7.358s] writing requirements to ../../build/light_follower/light_follower.egg-info/requires.txt
+[7.358s] writing top-level names to ../../build/light_follower/light_follower.egg-info/top_level.txt
+[7.358s] reading manifest file '../../build/light_follower/light_follower.egg-info/SOURCES.txt'
+[7.359s] writing manifest file '../../build/light_follower/light_follower.egg-info/SOURCES.txt'
+[7.359s] running build
+[7.359s] running build_py
+[7.359s] running install
+[7.359s] running install_lib
+[7.359s] running install_egg_info
+[7.359s] removing '/home/slaoui/ros2_ws/install/light_follower/lib/python3.10/site-packages/light_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[7.360s] Copying ../../build/light_follower/light_follower.egg-info to /home/slaoui/ros2_ws/install/light_follower/lib/python3.10/site-packages/light_follower-0.0.0-py3.10.egg-info
+[7.364s] running install_scripts
+[7.564s] Installing follower script to /home/slaoui/ros2_ws/install/light_follower/lib/light_follower
+[7.566s] writing list of installed files to '/home/slaoui/ros2_ws/build/light_follower/install.log'
+[7.858s] Invoked command in '/home/slaoui/ros2_ws/src/light_follower' returned '0': PYTHONPATH=/home/slaoui/ros2_ws/build/light_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/slaoui/ros2_ws/install/light_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/light_follower build --build-base /home/slaoui/ros2_ws/build/light_follower/build install --record /home/slaoui/ros2_ws/build/light_follower/install.log --single-version-externally-managed
